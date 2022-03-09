@@ -1,0 +1,23 @@
+{
+    "name": "booosta/tooltip",
+    "description": "Tooltips for webapplications in the Booosta Framework",
+    "license": "LGPL-3.0-only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "booosta\\tooltip\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Buzanits",
+            "email": "peter@icb.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "tooltipster/tooltipster": "^4.2",
+        "booosta/webapp": "dev-master"
+    }
+}
